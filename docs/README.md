@@ -163,6 +163,6 @@ flowchart TD
 | Influence | 2     | チーム全体に影響を与えられる                                                                                 |
 
 
-** Ref **
+**Ref**
 
 [jorgef/engineeringladders](https://github.com/jorgef/engineeringladders)
