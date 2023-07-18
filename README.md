@@ -1,2 +1,0 @@
-# EngineeringLadders
-ispecのエンジニアラダー〜ー
