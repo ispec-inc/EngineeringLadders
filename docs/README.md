@@ -1,3 +1,20 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
+<script>
+window.addEventListener("load", function(){
+  for (let element of document.getElementsByClassName("chartjs")) {
+    let parent = element.parentNode
+    let pparent = parent.parentNode
+    let canvas = document.createElement('canvas');
+    let box = document.createElement('div');
+    box.appendChild(canvas);
+    let ctx = canvas.getContext("2d")
+    let myChart = new Chart(ctx, JSON.parse(element.textContent));
+    box.setAttribute("style","display:block;width:75%;text-align:'center';margin: 5px auto;");
+    pparent.replaceChild(box, parent)
+  }
+});
+</script>
+
 # エンジニアリングラダー
 
 ispecのエンジニアのキャリアパスを表すモデル
@@ -77,16 +94,118 @@ flowchart TD
 
 ### Developer 1 (D1)
 
+|           | Level |
+|-----------|-------|
+| Tech      | 1     |
+| System    | 1     |
+| People    | 1     |
+| Process   | 1     |
+| Influence | 1     |
+
+```chartjs
+{
+  "type": "radar",
+  "data": {
+    "labels": [
+      "Tech",
+      "System",
+      "People",
+      "Process",
+      "Influence"
+    ],
+    "datasets": [
+      {
+        "label": "Bar Dataset",
+        "data": [
+          10,
+          20,
+          30,
+          40
+        ],
+        "borderColor": "rgb(255, 99, 132)",
+        "backgroundColor": "rgba(255, 99, 132, 0.2)"
+      },
+      {
+        "label": "Line Dataset",
+        "data": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "type": "line",
+        "fill": false,
+        "borderColor": "rgb(54, 162, 235)"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [
+        {
+          "ticks": {
+            "beginAtZero": true
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+
 ### Developer 2 (D2)
+
+|           | Level |
+|-----------|-------|
+| Tech      | 2     |
+| System    | 2     |
+| People    | 2     |
+| Process   | 3     |
+| Influence | 2     |
 
 ## Tech Lead
 システムのオーナーであり、アーキテクチャの決定や技術選定を行うロール。
 
 ### Tech Lead 1 (TL1)
+
+|           | Level |
+|-----------|-------|
+| Tech      | 3     |
+| System    | 4     |
+| People    | 4     |
+| Process   | 5     |
+| Influence | 2     |
+
 ### Tech Lead 2 (TL2)
+
+|           | Level |
+|-----------|-------|
+| Tech      | 4     |
+| System    | 5     |
+| People    | 4     |
+| Process   | 5     |
+| Influence | 4     |
 
 ## Engineering Manager
 チームのマネージャーであり、採用やエンジニアの個人のアサインを行うロール。
 
 ### Engineering Manager 1
+
+|           | Level |
+|-----------|-------|
+| Tech      | 3     |
+| System    | 3     |
+| People    | 5     |
+| Process   | 3     |
+| Influence | 2     |
+
 ### Engineering Manager 2
+
+|           | Level |
+|-----------|-------|
+| Tech      | 3     |
+| System    | 4     |
+| People    | 5     |
+| Process   | 4     |
+| Influence | 2     |
