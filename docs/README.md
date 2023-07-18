@@ -161,3 +161,8 @@ flowchart TD
 | People    | 5     | チームメンバーのキャリア、要望、パフォーマンス、エンゲージメントに対してポジティブな影響を与えることができる |
 | Process   | 4     | フィードバックからプロセス自体のを改善ができる                                                               |
 | Influence | 2     | チーム全体に影響を与えられる                                                                                 |
+
+
+** Ref **
+
+[jorgef/engineeringladders](https://github.com/jorgef/engineeringladders)
