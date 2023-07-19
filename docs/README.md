@@ -84,7 +84,7 @@ flowchart TD
 
 ### Developer 1 (D1)
 
-<img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['Tech','System','People','Process','Influence'],datasets:[{label:'Developer1',data:[1,1,1,1,1],borderWidth:1,borderColor:'rgba(75,+192,+192,+1)',backgroundColor:'rgba(75,+192,+192,+0.2)'}]},options:{scale:{ticks:{beginAtZero:true,max:5}}}}&w=500&h=300&bkg=#ffffff&f=png&v=2" >
+<img src="https://ispec-ladder.deno.dev?data=1,1,1,1,1&label=Developer1" >
 
 |           | Level | Description                                            |
 |-----------|-------|--------------------------------------------------------|
@@ -97,7 +97,7 @@ flowchart TD
 
 ### Developer 2 (D2)
 
-<img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['Tech','System','People','Process','Influence'],datasets:[{label:'Developer2',data:[2,2,2,3,2],borderWidth:1,borderColor:'rgba(75,+192,+192,+1)',backgroundColor:'rgba(75,+192,+192,+0.2)'}]},options:{scale:{ticks:{beginAtZero:true,max:5}}}}&w=500&h=300&bkg=#ffffff&f=png&v=2" >
+<img src="https://ispec-ladder.deno.dev?data=2,2,2,3,2&label=Developer2" >
 
 |           | Level | Description                                                                  |
 |-----------|-------|------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ flowchart TD
 
 ### Tech Lead 1 (TL1)
 
-<img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['Tech','System','People','Process','Influence'],datasets:[{label:'TechLead1',data:[3,4,4,5,2],borderWidth:1,borderColor:'rgba(75,+192,+192,+1)',backgroundColor:'rgba(75,+192,+192,+0.2)'}]},options:{scale:{ticks:{beginAtZero:true,max:5}}}}&w=500&h=300&bkg=#ffffff&f=png&v=2" >
+<img src="https://ispec-ladder.deno.dev?data=3,4,4,5,2&label=TechLead1" >
 
 |           | Level | Description                                                                  |
 |-----------|-------|------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ flowchart TD
 
 ### Tech Lead 2 (TL2)
 
-<img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['Tech','System','People','Process','Influence'],datasets:[{label:'TechLead2',data:[4,5,4,5,4],borderWidth:1,borderColor:'rgba(75,+192,+192,+1)',backgroundColor:'rgba(75,+192,+192,+0.2)'}]},options:{scale:{ticks:{beginAtZero:true,max:5}}}}&w=500&h=300&bkg=#ffffff&f=png&v=2" >
+<img src="https://ispec-ladder.deno.dev?data=4,5,4,5,4&label=TechLead1" >
 
 |           | Level | Description                                                                  |
 |-----------|-------|------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ flowchart TD
 
 ### Engineering Manager 1
 
-<img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['Tech','System','People','Process','Influence'],datasets:[{label:'EngineeringManager1',data:[3,3,5,3,2],borderWidth:1,borderColor:'rgba(75,+192,+192,+1)',backgroundColor:'rgba(75,+192,+192,+0.2)'}]},options:{scale:{ticks:{beginAtZero:true,max:5}}}}&w=500&h=300&bkg=#ffffff&f=png&v=2" >
+<img src="https://ispec-ladder.deno.dev?data=3,3,5,3,2&label=EngineeringManager1" >
 
 |           | Level | Description                                                                                                  |
 |-----------|-------|--------------------------------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ flowchart TD
 
 ### Engineering Manager 2
 
-<img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['Tech','System','People','Process','Influence'],datasets:[{label:'EngineeringManager2',data:[3,4,5,4,2],borderWidth:1,borderColor:'rgba(75,+192,+192,+1)',backgroundColor:'rgba(75,+192,+192,+0.2)'}]},options:{scale:{ticks:{beginAtZero:true,max:5}}}}&w=500&h=300&bkg=#ffffff&f=png&v=2" >
+<img src="https://ispec-ladder.deno.dev?data=3,4,5,4,2&label=EngineeringManager2" >
 
 |           | Level | Description                                                                                                  |
 |-----------|-------|--------------------------------------------------------------------------------------------------------------|
