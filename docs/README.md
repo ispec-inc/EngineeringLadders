@@ -84,7 +84,7 @@ flowchart TD
 
 ### Developer 1 (D1)
 
-<img src="https://ispec-ladder.deno.dev?tech=1&system1&people=1&process=1&influence=1&label=Developer1" >
+<img src="https://ispec-ladder.deno.dev?tech=1&system=1&people=1&process=1&influence=1&label=Developer1" >
 
 |           | Level | Description                                            |
 |-----------|-------|--------------------------------------------------------|
@@ -97,7 +97,7 @@ flowchart TD
 
 ### Developer 2 (D2)
 
-<img src="https://ispec-ladder.deno.dev?tech=2&system2&people=2&process=3&influence=2&label=Developer2" >
+<img src="https://ispec-ladder.deno.dev?tech=2&system=2&people=2&process=3&influence=2&label=Developer2" >
 
 |           | Level | Description                                                                  |
 |-----------|-------|------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ flowchart TD
 
 ### Tech Lead 1 (TL1)
 
-<img src="https://ispec-ladder.deno.dev?tech=3&system4&people=4&process=5&influence=2&label=TechLead1" >
+<img src="https://ispec-ladder.deno.dev?tech=3&system=4&people=4&process=5&influence=2&label=TechLead1" >
 
 |           | Level | Description                                                                  |
 |-----------|-------|------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ flowchart TD
 
 ### Tech Lead 2 (TL2)
 
-<img src="https://ispec-ladder.deno.dev?tech=4&system5&people=4&process=5&influence=4&label=TechLead2" >
+<img src="https://ispec-ladder.deno.dev?tech=4&system=5&people=4&process=5&influence=4&label=TechLead2" >
 
 |           | Level | Description                                                                  |
 |-----------|-------|------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ flowchart TD
 
 ### Engineering Manager 1
 
-<img src="https://ispec-ladder.deno.dev?tech=3&system3&people=5&process=3&influence=2&label=EngineeringManager1" >
+<img src="https://ispec-ladder.deno.dev?tech=3&system=3&people=5&process=3&influence=2&label=EngineeringManager1" >
 
 |           | Level | Description                                                                                                  |
 |-----------|-------|--------------------------------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ flowchart TD
 
 ### Engineering Manager 2
 
-<img src="https://ispec-ladder.deno.dev?tech=3&system4&people=5&process=4&influence=2&label=EngineeringManager2" >
+<img src="https://ispec-ladder.deno.dev?tech=3&system=4&people=5&process=4&influence=2&label=EngineeringManager2" >
 
 |           | Level | Description                                                                                                  |
 |-----------|-------|--------------------------------------------------------------------------------------------------------------|
